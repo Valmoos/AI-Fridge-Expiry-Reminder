@@ -61,25 +61,7 @@ https://huggingface.co/spaces/Maxfh13/AIFRIDGEEXPIRYREMINDER
 -  For LINE reminder deployment, the LINE Channel Access Token should be stored in Hugging Face Spaces under Variables and secrets as: LINE_CHANNEL_ACCESS_TOKEN
 -  The token should not be written directly in the code or uploaded to GitHub.]
 
-## File Structure
-The project files are organized as follows:
-AI-Smart-Fridge
-1. AI_SMART_FRIDGE.ipynb
-    - Main project notebook. This file contains the full development process,
-    - Including library installation, dataset loading, food recognition,
-    - OCR expiry-date reading, spoilage risk prediction, Gradio interface,
-    - My Fridge dashboard, and LINE reminder function.
 
-2. README.md
-    - Project explanation, setup instructions, file structure, analysis,
-    - results, contributors, acknowledgments, and references.
-      
-3. app.py
-    - Python application file used for Hugging Face Spaces deployment.
-    - It runs the Gradio interface online.
-      
-4. requirements.txt
-    - List of Python libraries needed to run the Hugging Face app.
 
 ## Analysis
 Analysis
